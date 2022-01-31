@@ -34,18 +34,22 @@
 
     #description {
         display: inline-block;
-    }
+        max-width: 80%;
+      }
 
     #image {
         float: left;
         margin: 20px;
-        padding: 5px;
         background-color: white;
+        padding: 5px;
+        border-radius: 50%;
     }
 
     #description-left {
         padding: 20px;
         float: right;
+        margin-top: 3%;
+        max-width: 70%;
     }
 
     #ability li {
@@ -54,4 +58,13 @@
 
     #ability li:nth-child(even) {
         font-style: italic;
+    }
+
+    img {
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    #description-left p {
+      max-width: 80%;
     }
