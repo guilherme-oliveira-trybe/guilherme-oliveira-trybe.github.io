@@ -1,29 +1,57 @@
 *{
-    background-color: gray;
-    color: white;
-    font-family: 'Courier New', sans-serif;      
-  }
-  
-  h1{
-    font-family: helvetica, sans-serif;
-  }
+      background-color: gray;
+      color: white;
+      font-family: 'Courier New', sans-serif;      
+    }
+    
+    h1{
+      font-family: helvetica, sans-serif;
+    }
 
-  .first-skill{
-    font-size: 20px;
-  }
+    .first-skill{
+      font-size: 20px;
+    }
 
-  .second-skill{
-    font-size: 18px;
-  }
+    .second-skill{
+      font-size: 18px;
+    }
 
-  .third-skill{
-    font-size: 16px;
-  }
+    .third-skill{
+      font-size: 16px;
+    }
 
-  .fourth-skill{
-    font-size: 14px;
-  }
+    .fourth-skill{
+      font-size: 14px;
+    }
 
-  .locals-live{
-    font-style: italic;
-  }
+    .locals-live{
+      font-style: italic;
+    }
+
+    #name {
+        text-align: center;
+    }
+
+    #description {
+        display: inline-block;
+    }
+
+    #image {
+        float: left;
+        margin: 20px;
+        padding: 5px;
+        background-color: white;
+    }
+
+    #description-left {
+        padding: 20px;
+        float: right;
+    }
+
+    #ability li {
+        padding-bottom: 10px;
+    }
+
+    #ability li:nth-child(even) {
+        font-style: italic;
+    }
